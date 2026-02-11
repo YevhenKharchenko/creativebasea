@@ -1,5 +1,5 @@
 .policy-section {
-  background: #292945;
+  background: #152972;
   padding-top: 112px;
   padding-bottom: 60px;
 
@@ -10,11 +10,10 @@
 }
 
 .policy-main-title {
-  font-family: 'Bebas Neue', sans-serif;
-  font-weight: 400;
-  font-size: 42px;
+  font-family: 'Lora', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
   line-height: 1.3;
-  text-transform: uppercase;
   text-align: center;
   color: #fff;
   margin-bottom: 40px;
@@ -25,21 +24,19 @@
 }
 
 .policy-title {
-  font-family: 'Bebas Neue', sans-serif;
-  font-weight: 400;
+  font-family: 'Lora', sans-serif;
+  font-weight: 600;
   font-size: 20px;
   line-height: 1.3;
-  text-transform: uppercase;
   color: #fff;
   margin-bottom: 16px;
 
   @include media(desktop) {
-    font-size: 22px;
   }
 }
 
 .policy-text {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Lora', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
@@ -50,7 +47,7 @@
   }
 
   @include media(desktop) {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -60,7 +57,7 @@
 }
 
 .policy-item {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Lora', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
@@ -72,15 +69,15 @@
   }
 
   @include media(desktop) {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 .policy-span {
-  color: #6c91ff;
+  color: #92adff;
 }
 
 .policy-link {
-  color: #6c91ff;
+  color: #92adff;
   word-wrap: break-word;
 }

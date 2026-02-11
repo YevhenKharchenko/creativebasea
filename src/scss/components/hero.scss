@@ -1,4 +1,6 @@
 .hero-section {
+  background: linear-gradient(180deg, #152972 0%, #480d8e 100%);
+
   @include media(desktop) {
   }
 }
